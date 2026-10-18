@@ -49,7 +49,21 @@ export default function AboutPage() {
         aria-labelledby="about-title"
         className="bg-[#2A0D33] text-white"
       >
-        <div className="mx-auto flex min-h-[615px] max-w-[1248px] flex-col px-6 pb-14 pt-12 lg:min-h-[500px] lg:pb-[68px] lg:pt-[76px]">
+        
+<div
+  className="
+    site-container
+    flex
+    min-h-[615px]
+    flex-col
+    pb-14
+    pt-12
+    lg:min-h-[500px]
+    lg:pb-[68px]
+    lg:pt-[76px]
+  "
+>
+
           <p className="text-[11px] font-semibold uppercase tracking-[0.17em]">
             About Us
           </p>
@@ -84,7 +98,23 @@ export default function AboutPage() {
         aria-labelledby="mission-title"
         className="scroll-mt-6 bg-white text-[#2A0D33]"
       >
-        <div className="mx-auto grid max-w-[1248px] grid-cols-1 gap-y-12 px-6 pb-16 pt-14 lg:grid-cols-[minmax(0,550px)_minmax(0,1fr)] lg:gap-x-[50px] lg:pb-[76px] lg:pt-[78px]">
+       
+<div
+  className="
+    site-container
+    grid
+    min-w-0
+    grid-cols-1
+    gap-y-12
+    pb-16
+    pt-14
+    lg:grid-cols-[minmax(0,550px)_minmax(0,1fr)]
+    lg:gap-x-[50px]
+    lg:pb-[76px]
+    lg:pt-[78px]
+  "
+>
+
           <div>
             <p className="text-[11px] font-semibold uppercase tracking-[0.15em]">
               Our Mission &amp; Vision
@@ -146,7 +176,17 @@ export default function AboutPage() {
           className="pointer-events-none absolute inset-0 -z-10 bg-[url('/images/background-image.jpg')] bg-cover bg-center bg-no-repeat opacity-[0.32] lg:bg-right"
         />
 
-        <div className="mx-auto max-w-[1248px] px-6 pb-[78px] pt-[58px] lg:pb-[76px] lg:pt-[76px]">
+        
+<div
+  className="
+    site-container
+    pb-[78px]
+    pt-[58px]
+    lg:pb-[76px]
+    lg:pt-[76px]
+  "
+>
+
           <h2
             id="beliefs-title"
             className="text-[30px] font-normal leading-[1.2] tracking-[-0.035em] sm:text-[36px] lg:text-[40px]"

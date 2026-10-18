@@ -71,7 +71,17 @@ export default function InterestForm() {
       aria-labelledby="interest-heading"
       className="scroll-mt-8 bg-[#FBF9FC] text-[#2A0D33]"
     >
-      <div className="mx-auto max-w-[1248px] px-6 pb-12 pt-[72px] lg:pb-[90px] lg:pt-[88px]">
+      
+<div
+  className="
+    site-container
+    pb-12
+    pt-[72px]
+    lg:pb-[90px]
+    lg:pt-[88px]
+  "
+>
+
         <h2
           id="interest-heading"
           className="max-w-[950px] text-[30px] font-normal leading-[1.22] tracking-[-0.035em] sm:text-[36px] lg:text-[40px]"

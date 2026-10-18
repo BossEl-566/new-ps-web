@@ -79,7 +79,22 @@ export default function ParticipatePage() {
     <>
       {/* Shared SiteHeader and SiteFooter are already in src/app/layout.tsx. */}
       <section aria-labelledby="participate-title" className="bg-[#2A0D33] text-white">
-        <div className="mx-auto flex min-h-[410px] max-w-[1248px] flex-col items-start px-6 pb-[54px] pt-[62px] lg:min-h-[465px] lg:pb-[72px] lg:pt-[82px]">
+        
+<div
+  className="
+    site-container
+    flex
+    min-h-[410px]
+    flex-col
+    items-start
+    pb-[54px]
+    pt-[62px]
+    lg:min-h-[465px]
+    lg:pb-[72px]
+    lg:pt-[82px]
+  "
+>
+
           <h1
             id="participate-title"
             className="text-[42px] font-normal leading-[1.15] tracking-[-0.035em] sm:text-[52px] lg:text-[64px]"
@@ -111,7 +126,17 @@ export default function ParticipatePage() {
       </section>
 
       <section aria-labelledby="participation-ways" className="bg-white text-[#2A0D33]">
-        <div className="mx-auto max-w-[1248px] px-6 pb-[62px] pt-[65px] lg:pb-[82px] lg:pt-[82px]">
+        
+<div
+  className="
+    site-container
+    pb-[62px]
+    pt-[65px]
+    lg:pb-[82px]
+    lg:pt-[82px]
+  "
+>
+
           <p className="text-[11px] font-semibold uppercase tracking-[0.17em]">
             Participate
           </p>

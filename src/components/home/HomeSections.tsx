@@ -144,11 +144,18 @@ function PageIntro() {
 
 function IntroAndFeatures() {
   return (
-    <section aria-label="About the Prayer Social community" className="relative overflow-hidden bg-white px-6 pb-20 pt-12 text-[#2A0D33] md:pb-28 md:pt-16">
+    
+<section
+  aria-label="About the Prayer Social community"
+  className="relative overflow-hidden bg-white pb-20 pt-12 text-[#2A0D33] md:pb-28 md:pt-16"
+>
+
       <div className="pointer-events-none absolute -bottom-24 right-[-10%] z-0 h-[520px] w-[520px] opacity-[0.035] md:h-[780px] md:w-[780px]">
         <Image src="/images/logo.png" alt="" fill sizes="(max-width: 768px) 520px, 780px" className="object-contain" />
       </div>
-      <div className="relative z-10 mx-auto max-w-[1248px]">
+      
+<div className="relative z-10 mx-auto w-full max-w-[1440px] px-6 sm:px-8 md:px-10 lg:px-16 xl:px-24">
+
         <div className="flex flex-wrap items-center gap-x-7 gap-y-4">
           <a href={APP_STORE_URL} target="_blank" rel="noopener noreferrer" aria-label="Download Prayer Social on the Apple App Store" className="inline-flex rounded-md focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#2A0D33]">
             <Image src="/images/appstore.png" width={150} height={50} alt="Download on the App Store" className="h-[48px] w-auto max-w-[150px] object-contain" />
@@ -192,8 +199,32 @@ function IntroAndFeatures() {
 
 function MissionSection() {
   return (
-    <section aria-labelledby="mission-title" className="bg-white px-6 pb-20 pt-4 text-[#2A0D33] md:pb-28 md:pt-10">
-      <div className="mx-auto grid max-w-[1248px] grid-cols-1 gap-12 lg:grid-cols-[1.7fr_1fr] lg:gap-16">
+    
+<section
+  aria-labelledby="mission-title"
+  className="bg-white pb-20 pt-4 text-[#2A0D33] md:pb-28 md:pt-10"
+>
+
+      
+<div
+  className="
+    mx-auto
+    grid
+    w-full
+    max-w-[1440px]
+    min-w-0
+    grid-cols-1
+    gap-12
+    px-6
+    sm:px-8
+    md:px-10
+    lg:grid-cols-[1.7fr_1fr]
+    lg:gap-16
+    lg:px-16
+    xl:px-24
+  "
+>
+
         <div>
           <p className="text-[11px] font-semibold uppercase tracking-[0.12em]">Our Mission &amp; Vision</p>
           <h2 id="mission-title" className="mt-7 max-w-[760px] text-[30px] font-normal leading-[1.3] tracking-[-0.03em] sm:text-[38px] lg:text-[44px]">
@@ -225,7 +256,9 @@ function MissionSection() {
 function CommunityBanner() {
   return (
     <section className="bg-[#2A0D33] px-6 py-20 text-center text-white md:py-28">
-      <div className="mx-auto max-w-[1248px]">
+      
+<div className="mx-auto w-full max-w-[1440px] px-6 sm:px-8 md:px-10 lg:px-16 xl:px-24">
+
         <h2 className="text-[29px] font-normal leading-[1.35] tracking-[-0.03em] sm:text-[38px] lg:text-[44px]">
           Community . Redemption . Restoration . Freedom.
         </h2>
@@ -240,11 +273,18 @@ function CommunityBanner() {
 
 function NextSteps() {
   return (
-    <section aria-labelledby="next-steps-title" className="relative overflow-hidden bg-white px-6 py-20 text-[#2A0D33] md:py-24">
+    
+<section
+  aria-labelledby="next-steps-title"
+  className="relative overflow-hidden bg-white py-20 text-[#2A0D33] md:py-24"
+>
+
       <div className="pointer-events-none absolute bottom-[-100px] left-1/2 h-[550px] w-[550px] -translate-x-1/2 opacity-[0.025] md:h-[800px] md:w-[800px]">
         <Image src="/images/logo.png" alt="" fill sizes="(max-width: 768px) 550px, 800px" className="object-contain" />
       </div>
-      <div className="relative z-10 mx-auto max-w-[1248px]">
+      
+<div className="relative z-10 mx-auto w-full max-w-[1440px] px-6 sm:px-8 md:px-10 lg:px-16 xl:px-24">
+
         <p className="text-[11px] font-semibold uppercase tracking-[0.14em]">Next Steps</p>
         <h2 id="next-steps-title" className="mb-8 mt-5 text-[30px] font-normal tracking-[-0.025em] sm:text-[38px]">Lots of Ways to Get Involved.</h2>
         <div className="grid grid-cols-1 gap-5 md:grid-cols-3 md:gap-7">
@@ -261,8 +301,15 @@ function NextSteps() {
 
 function UpcomingEvents() {
   return (
-    <section aria-labelledby="events-title" className="bg-[#2A0D33] px-6 py-20 text-white md:py-24">
-      <div className="mx-auto max-w-[1248px]">
+    
+<section
+  aria-labelledby="events-title"
+  className="bg-[#2A0D33] py-20 text-white md:py-24"
+>
+
+      
+<div className="mx-auto w-full max-w-[1440px] px-6 sm:px-8 md:px-10 lg:px-16 xl:px-24">
+
         <p className="text-[11px] font-semibold uppercase tracking-[0.13em]">Get Involved</p>
         <h2 id="events-title" className="mt-6 text-[31px] font-normal leading-tight tracking-[-0.025em] sm:text-[39px]">Join Us At Any Event!</h2>
         <a href="#events-list" className="mt-6 inline-flex min-h-11 items-center justify-center rounded-[5px] bg-white px-5 text-[13px] font-semibold text-[#2A0D33] transition-colors hover:bg-[#EEBF1C] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white">
@@ -284,8 +331,15 @@ function UpcomingEvents() {
 
 function LatestNews() {
   return (
-    <section aria-labelledby="news-title" className="bg-white px-6 py-20 text-[#2A0D33] md:py-24">
-      <div className="mx-auto max-w-[1248px]">
+    
+<section
+  aria-labelledby="news-title"
+  className="bg-white py-20 text-[#2A0D33] md:py-24"
+>
+
+      
+<div className="mx-auto w-full max-w-[1440px] px-6 sm:px-8 md:px-10 lg:px-16 xl:px-24">
+
         <p className="text-[11px] font-semibold uppercase tracking-[0.13em]">Prayer Social Blog</p>
         <h2 id="news-title" className="mb-8 mt-6 text-[31px] font-normal tracking-[-0.025em] sm:text-[39px]">The Latest News &amp; Updates</h2>
         <div className="grid grid-cols-1 items-start gap-10 md:grid-cols-3 md:gap-7">

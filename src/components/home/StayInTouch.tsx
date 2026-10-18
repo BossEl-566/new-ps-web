@@ -20,8 +20,13 @@ export default function StayInTouch() {
   }
 
   return (
-    <section aria-labelledby="stay-in-touch" className="bg-[#FBF9FC] px-6 py-20 md:py-24">
-      <div className="mx-auto w-full max-w-[1248px]">
+    
+<section
+  aria-labelledby="stay-in-touch"
+  className="bg-[#FBF9FC] py-20 md:py-24"
+>
+  <div className="site-container">
+
         <h2 id="stay-in-touch" className="text-[30px] font-normal leading-tight tracking-[-0.025em] text-[#2A0D33] md:text-[36px]">
           Stay In Touch
         </h2>
