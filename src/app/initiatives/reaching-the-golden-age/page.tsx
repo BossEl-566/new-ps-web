@@ -55,7 +55,32 @@ export default function GoldenAgeInitiativeDetailPage() {
   return (
     <>
       {/* Header and footer are provided by the global layout. */}
-      <div className="mx-auto grid w-full max-w-[1248px] grid-cols-1 gap-x-[62px] gap-y-16 px-6 pb-16 pt-14 text-[#2A0D33] lg:grid-cols-[minmax(0,2.37fr)_minmax(0,1fr)] xl:px-0 lg:pb-[78px] lg:pt-[70px]">
+      
+<div
+  className="
+    mx-auto
+    grid
+    box-border
+    w-full
+    max-w-[1440px]
+    min-w-0
+    grid-cols-1
+    gap-y-16
+    px-6
+    pb-16
+    pt-14
+    text-[#2A0D33]
+    sm:px-8
+    md:px-10
+    lg:grid-cols-[minmax(0,2.37fr)_minmax(0,1fr)]
+    lg:gap-x-[62px]
+    lg:px-16
+    lg:pb-[78px]
+    lg:pt-[70px]
+    xl:px-24
+  "
+>
+
         <article className="min-w-0 text-[16px] font-normal leading-[1.65] sm:text-[17px]">
           <header>
             <h1 className="text-[32px] font-normal leading-[1.24] tracking-[-0.025em] sm:text-[38px] lg:text-[40px]">

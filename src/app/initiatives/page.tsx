@@ -16,7 +16,28 @@ export default function InitiativesPage() {
     <>
       {/* Global header and footer already live in src/app/layout.tsx. */}
       <section aria-labelledby="initiatives-hero-title" className="bg-[#2A0D33] text-white">
-        <div className="mx-auto flex min-h-[365px] w-full max-w-[1248px] flex-col justify-center px-6 py-12 lg:min-h-[395px] xl:px-0 lg:py-20">
+        
+<div
+  className="
+    mx-auto
+    flex
+    box-border
+    min-h-[365px]
+    w-full
+    max-w-[1440px]
+    flex-col
+    justify-center
+    px-6
+    py-12
+    sm:px-8
+    md:px-10
+    lg:min-h-[395px]
+    lg:px-16
+    lg:py-20
+    xl:px-24
+  "
+>
+
           <h1
             id="initiatives-hero-title"
             className="max-w-[1120px] text-[40px] font-normal leading-[1.17] tracking-[-0.025em] sm:text-[48px] lg:text-[64px] lg:leading-[1.12]"
@@ -30,7 +51,25 @@ export default function InitiativesPage() {
       </section>
 
       <section aria-labelledby="latest-initiatives-title" className="bg-white text-[#2A0D33]">
-        <div className="mx-auto w-full max-w-[1248px] px-6 pb-12 pt-12 xl:px-0 lg:pb-[80px] lg:pt-[82px]">
+        
+<div
+  className="
+    mx-auto
+    box-border
+    w-full
+    max-w-[1440px]
+    px-6
+    pb-12
+    pt-12
+    sm:px-8
+    md:px-10
+    lg:px-16
+    lg:pb-[80px]
+    lg:pt-[82px]
+    xl:px-24
+  "
+>
+
           <h2
             id="latest-initiatives-title"
             className="text-[28px] font-normal leading-[1.25] tracking-[-0.025em] sm:text-[34px] lg:text-[40px]"
