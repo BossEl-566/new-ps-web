@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Open_Sans } from "next/font/google";
 
 import SiteHeader from "@/components/layout/SiteHeader";
+import SiteFooter from "@/components/layout/SiteFooter";
 
 import "./globals.css";
 
@@ -33,6 +34,8 @@ export default function RootLayout({
         <main id="main-content">
           {children}
         </main>
+
+        <SiteFooter />
       </body>
     </html>
   );
