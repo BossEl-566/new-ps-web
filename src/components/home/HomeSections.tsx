@@ -32,6 +32,7 @@ const introColumns = [
   },
 ];
 
+
 const featureCards = [
   {
     title: "Powerful Testimonies",
