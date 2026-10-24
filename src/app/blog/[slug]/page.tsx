@@ -8,6 +8,9 @@ import {
   getPublishedBlogPosts,
 } from "@/lib/blog/posts";
 
+import HeavenArticle from "@/components/blog/HeavenArticle";
+
+
 type PageProps = {
   params: Promise<{ slug: string }>;
 };
@@ -29,9 +32,17 @@ export default async function BlogPostPage({ params }: PageProps) {
   const { slug } = await params;
   const post = getPublishedBlogPostBySlug(slug);
 
-  if (!post) notFound();
+  
+if (!post) notFound();
 
-  return (
+// Full article design for John 3:27
+if (post.slug === "if-it-is-from-heaven-john-3-27") {
+  return <HeavenArticle />;
+}
+
+// Keep the existing rendering for other blog posts
+return (
+
     <article className="mx-auto w-full max-w-[1440px] px-6 pb-20 pt-14 text-[#2A0D33] sm:px-8 md:px-10 lg:px-16 lg:pb-28 lg:pt-20 xl:px-24">
       <div className="max-w-[850px]">
         <Link
