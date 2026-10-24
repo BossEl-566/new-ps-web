@@ -8,7 +8,7 @@ import { useEffect, useRef, useState } from "react";
 
 const navigationLinks = [
   { label: "Home", href: "/" },
-  { label: "Enter App", href: "/app" },
+  { label: "Enter App", href: "https://app.prayer.social/" },
   { label: "Participate", href: "/participate" },
   { label: "Initiatives", href: "/initiatives" },
   { label: "Blog", href: "/blog" },
